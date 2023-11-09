@@ -5,7 +5,7 @@
 
 using namespace std;
 
-template <class T>
+template <Utils::isNumber T>
 void sort_(T (&arr)[sizeArr]) {
 	for (int i = 0; i < sizeArr - 1; i++)
 		for (int j = 0; j < sizeArr - 1; j++)
