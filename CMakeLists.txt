@@ -14,6 +14,7 @@ set(SOURCE_FILES BubbleSort/BubbleSort.cpp
 				 InsertionSort/InsertionSort.cpp
 				 InsertionSort/BinaryInsertionSort.cpp
 				 ShellSort/ShellSort.cpp
+				 MergeSort/MergeSort.cpp
 )
 
 foreach(SOURCE_FILE ${SOURCE_FILES})
