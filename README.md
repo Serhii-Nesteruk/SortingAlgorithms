@@ -4,8 +4,7 @@ This project is a collection of various sorting algorithms implemented in C++. T
 ## Algorithms Included
 
  ### 1. Bubble Sort
- • Implementation: <br>
-[BubbleSort.cpp](BubbleSort/BubbleSort.cpp) <br>
+ • Implementation: [BubbleSort.cpp](BubbleSort/BubbleSort.cpp) <br>
 [BubbleSort1.cpp](BubbleSort/BubbleSort1.cpp) <br>
 [BubbleSort2.cpp](BubbleSort/BubbleSort2.cpp) <br>
 [BubbleSort3.cpp](BubbleSort/BubbleSort3.cpp) <br>
@@ -15,3 +14,7 @@ This project is a collection of various sorting algorithms implemented in C++. T
 ### 2. Selection Sort
  • Implementation: [SelectionSort.cpp](SelectionSort/SelectionSort.cpp) <br>
  • Description: Selection Sort sorts an array by repeatedly finding the minimum element from the unsorted part of the array and putting it at the beginning.
+### 3. Insertion Sort
+ • Implementation: [InsertionSort.cpp](InsertionSort/InsertionSort.cpp) <br>
+ [BinaryInsertionSort.cpp](InsertionSort/BinaryInsertionSort.cpp) <br>
+ • Description: Insertion Sort builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
