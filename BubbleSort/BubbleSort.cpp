@@ -3,7 +3,7 @@
 using namespace std;
 
 template <Utils::isNumber T>
-void sort_(T(&arr)[sizeArr]) {
+void bubbleSort(T(&arr)[sizeArr]) {
 	int i = 0;
 	do
 	{
@@ -25,7 +25,7 @@ int main() {
 	cout << "Before: " << std::endl;
 	Utils::print(arr);
 
-	sort_(arr);
+	bubbleSort(arr);
 
 	cout << "After: " << std::endl;
 	Utils::print(arr);

@@ -3,7 +3,7 @@
 using namespace std;
 
 template <Utils::isNumber T>
-void sort_(T(&arr)[sizeArr]) {
+void bubbleSort5(T(&arr)[sizeArr]) {
     int pmin = 0, pmax = sizeArr - 2, p = -1;
     do
     {
@@ -35,7 +35,7 @@ int main() {
 	cout << "Before sorting: " << endl;
 	Utils::print(arr);
 
-	sort_(arr);
+    bubbleSort5(arr);
 
 	cout << "After sorting: " << endl;
 	Utils::print(arr);

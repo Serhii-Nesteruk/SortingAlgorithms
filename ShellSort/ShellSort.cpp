@@ -3,7 +3,7 @@
 using namespace std;
 
 template <Utils::isNumber T>
-void sort_(T(&arr)[sizeArr]) {
+void shellSort(T(&arr)[sizeArr]) {
     for (int gap = sizeArr / 2; gap > 0; gap /= 2) 
     {
         for (int i = gap; i < sizeArr; i++) 
@@ -29,7 +29,7 @@ int main() {
 	cout << "Before sorting: " << endl;
 	Utils::print(arr);
 
-	sort_(arr);
+    shellSort(arr);
 
 	cout << "After sorting: " << endl;
 	Utils::print(arr);

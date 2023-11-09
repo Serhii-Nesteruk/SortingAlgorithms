@@ -2,7 +2,7 @@
 
 using namespace std;
 template <Utils::isNumber T>
-void sort_(T(&arr)[sizeArr])
+void selection(T(&arr)[sizeArr])
 {
 	int pmin = 0;
 	for (int i = 0; i < sizeArr - 1; ++i)
@@ -23,7 +23,7 @@ int main() {
 	cout << "Before: " << endl;
 	Utils::print(arr);
 
-	sort_(arr);
+	selection(arr);
 
 	cout << "After: " << endl;
 	Utils::print(arr);

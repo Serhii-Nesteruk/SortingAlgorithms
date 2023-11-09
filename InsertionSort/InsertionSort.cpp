@@ -3,7 +3,7 @@
 using namespace std;
 
 template <Utils::isNumber T>
-void sort_(T (&arr)[sizeArr]) 
+void insertionSort(T (&arr)[sizeArr]) 
 {
 	int i = 0, x = 0;
 	for (int j = sizeArr - 2; j >= 0; --j)
@@ -28,7 +28,7 @@ int main() {
 	cout << "Before: ";
 	Utils::print(arr);
 
-	sort_(arr);
+	insertionSort(arr);
 
 	cout << "After: ";
 	Utils::print(arr);
