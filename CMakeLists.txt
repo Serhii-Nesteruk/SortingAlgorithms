@@ -13,6 +13,7 @@ set(SOURCE_FILES BubbleSort/BubbleSort.cpp
 				 SelectionSort/SelectionSort.cpp
 				 InsertionSort/InsertionSort.cpp
 				 InsertionSort/BinaryInsertionSort.cpp
+				 ShellSort/ShellSort.cpp
 )
 
 foreach(SOURCE_FILE ${SOURCE_FILES})
