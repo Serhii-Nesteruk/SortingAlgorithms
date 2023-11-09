@@ -1,4 +1,4 @@
-#include "Utils.inl"
+#include "../Utils/Utils.inl"
 
 #include <iostream>
 #include <iomanip>
@@ -7,21 +7,18 @@ using namespace std;
 
 template <Utils::isNumber T>
 void sort_(T(&arr)[sizeArr]) {
-	int pmin = 0, pmax = sizeArr - 1, p = -1;
-	do
+	for (int i = sizeArr - 1; i > 0; i--)
 	{
-		p = -1;
-		for (int i = pmin; i < pmax; i++)
-			if (arr[i] > arr[i + 1])
+		int p = 1;
+		for (int j = 0; j < i; j++)
+			if (arr[j] > arr[j + 1])
 			{
-				swap(arr[i], arr[i + 1]);
-				if (p < 0) 
-					pmin = i;
-				p = i;
+				swap(arr[j], arr[j + 1]);
+				p = 0;
 			}
-		if (pmin) pmin--;
-		pmax = p;
-	} while (p >= 0);
+		if (p) 
+			break;
+	}
 }
 
 int main() {
