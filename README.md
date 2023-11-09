@@ -19,6 +19,16 @@ This project is a collection of various sorting algorithms implemented in C++. T
  .                   [BinaryInsertionSort.cpp](InsertionSort/BinaryInsertionSort.cpp) <br>
  • Description: Insertion Sort builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
 
+## How to Use
+### 1. Clone the repository:
+````
+   git clone https://github.com/your-username/sorting-algorithms-collection.git
+````
+### 2. Compile and run the desired sorting algorithm:
+````
+   g++ BubbleSort.cpp -o BubbleSort
+   ./BubbleSort
+````
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
