@@ -4,12 +4,11 @@ This project is a collection of various sorting algorithms implemented in C++. T
 ## Algorithms Included
 
  1. ### Bubble Sort
- • Implementation: 
-[BubbleSort.cpp](BubbleSort/BubbleSort.cpp) 
-[BubbleSort1.cpp](BubbleSort/BubbleSort1.cpp)
-[BubbleSort2.cpp](BubbleSort/BubbleSort2.cpp)
-[BubbleSort3.cpp](BubbleSort/BubbleSort3.cpp)
-[BubbleSort4.cpp](BubbleSort/BubbleSort3.cpp)
-[BubbleSort5.cpp](BubbleSort/BubbleSort3.cpp)
-
+ • Implementation: <br>
+[BubbleSort.cpp](BubbleSort/BubbleSort.cpp) <br>
+[BubbleSort1.cpp](BubbleSort/BubbleSort1.cpp) <br>
+[BubbleSort2.cpp](BubbleSort/BubbleSort2.cpp) <br>
+[BubbleSort3.cpp](BubbleSort/BubbleSort3.cpp) <br>
+[BubbleSort4.cpp](BubbleSort/BubbleSort3.cpp) <br>
+[BubbleSort5.cpp](BubbleSort/BubbleSort3.cpp) <br>
  • Description: Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
