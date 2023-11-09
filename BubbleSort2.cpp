@@ -1,16 +1,11 @@
+#include "Utils.h"
+
 #include <iostream>
 #include <iomanip>
 
 #define sizeArr 20
 
 using namespace std;
-
-template <class T>
-void print(T(&arr)[sizeArr]) {
-	for (int i = 0; i < sizeArr; ++i)
-		cout << setw(3) << arr[i];
-	cout << endl;
-}
 
 template <class T>
 void sort_(T(&arr)[sizeArr]) {
@@ -20,26 +15,18 @@ void sort_(T(&arr)[sizeArr]) {
 				swap(arr[j], arr[j + 1]);
 }
 
-template <class T>
-void randArrayInit(T(&arr)[sizeArr], T maxNumber)
-{
-	srand(time(nullptr));
-	for (int i = 0; i < sizeArr; ++i)
-		arr[i] = rand() % maxNumber;
-}
-
 int main() {
 	int arr[sizeArr]{};
 
-	randArrayInit(arr, 100);
+	Utils::randArrayInit(arr, 100);
 
 	cout << "Befor sorting: ";
-	print(arr);
+	Utils::print(arr);
 
 	sort_(arr);
 
 	cout << "After sorting: ";
-	print(arr);
+	Utils::print(arr);
 
 	system("pause");
 

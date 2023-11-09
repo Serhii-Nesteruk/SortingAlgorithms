@@ -1,7 +1,7 @@
+#include "Utils.h"
+
 #include <iostream>
 #include <iomanip>
-
-#define sizeArr 5
 
 using namespace std;
 
@@ -20,34 +20,20 @@ void sort_(T(&arr)[sizeArr]) {
 	} while (i < sizeArr);
 }
 
-template <class T>
-void print(T (&arr)[sizeArr]) {
-	for (int i = 0; i < sizeArr; ++i)
-		cout << setw(3) << arr[i];
-	cout << endl;
-}
-
-template <class T>
-void randArrayInit(T(&arr)[sizeArr])
-{
-	for (int i = 0; i < sizeArr; ++i)
-		arr[i] = rand() % 100 + 1;
-}
-
 int main() {
 	int arr[sizeArr]{};
 
 	srand(time(nullptr));
 
-	randArrayInit(arr);
+	Utils::randArrayInit(arr, 100);
 
 	cout << "Before: " << std::endl;
-	print(arr);
+	Utils::print(arr);
 
 	sort_(arr);
 
 	cout << "After: " << std::endl;
-	print(arr);
+	Utils::print(arr);
 
 	system("pause");
 
