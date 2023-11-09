@@ -1,8 +1,5 @@
 #include "../Utils/Utils.inl"
 
-#include <iostream>
-#include <iomanip>
-
 using namespace std;
 
 template <Utils::isNumber T>
@@ -22,8 +19,6 @@ void sort_(T(&arr)[sizeArr]) {
 
 int main() {
 	int arr[sizeArr]{};
-
-	srand(time(nullptr));
 
 	Utils::randArrayInit(arr, 100);
 

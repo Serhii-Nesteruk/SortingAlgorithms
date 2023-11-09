@@ -1,8 +1,5 @@
 #include "../Utils/Utils.inl"
 
-#include <iostream>
-#include <iomanip>
-
 using namespace std;
 
 template <Utils::isNumber T>

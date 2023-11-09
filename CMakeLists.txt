@@ -4,12 +4,14 @@ project(Algorithms)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(SOURCE_FILES BubbleSort/BubbleSort.cpp BubbleSort/BubbleSort1.cpp
-										    BubbleSort/BubbleSort2.cpp
-										    BubbleSort/BubbleSort3.cpp
-										    BubbleSort/BubbleSort4.cpp
-										    BubbleSort/BubbleSort5.cpp
-											SelectionSort/SelectionSort.cpp
+set(SOURCE_FILES BubbleSort/BubbleSort.cpp
+				 BubbleSort/BubbleSort1.cpp
+				 BubbleSort/BubbleSort2.cpp
+				 BubbleSort/BubbleSort3.cpp
+				 BubbleSort/BubbleSort4.cpp
+				 BubbleSort/BubbleSort5.cpp
+				 SelectionSort/SelectionSort.cpp
+				 InsertionSort/InsertionSort.cpp
 )
 
 foreach(SOURCE_FILE ${SOURCE_FILES})
