@@ -18,3 +18,7 @@ This project is a collection of various sorting algorithms implemented in C++. T
  • Implementation:   [InsertionSort.cpp](InsertionSort/InsertionSort.cpp) <br>
  .                   [BinaryInsertionSort.cpp](InsertionSort/BinaryInsertionSort.cpp) <br>
  • Description: Insertion Sort builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
